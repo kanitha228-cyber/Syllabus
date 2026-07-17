@@ -1,0 +1,358 @@
+﻿# Course File — Dual-Level (Awareness + Advanced) Design
+
+### B24EAS504 — Big Data Analytics | AIML | Semester 6 | AY 2026–27
+
+## 0. Course identification 🟢
+
+| Field | Entry |
+| --- | --- |
+| Faculty name | ‹…› |
+| REVA ID | ‹…› |
+| Email | ‹…› |
+| Programme | B.Tech — AIML |
+| Course code | B24EAS504 |
+| Course title | Big Data Analytics |
+| Semester & section | VI — A/B |
+| Academic year | 2026–27 |
+| Course duration (sessions) | 12 sessions (theory/tutorial/lab integrated) |
+| Office / consultation hours | ‹…› |
+| Dual-Level Designation | A + Adv |
+| Category | W / Workshop |
+
+**L-T-P-C:** 0-0-2 → 2 contact hours/week · 2 Credits  
+**Assessment:** CIE 50% · SEE 50%
+
+**School vision:** To emerge as a globally recognised department of computer science in education, research, and innovation that advances technology for sustainable development, serves humanity, and nurtures ethically responsible leaders for the digital future.
+
+**School mission:** To provide learner-centric education in computer science and engineering, leveraging cutting-edge technologies to empower students with strong theoretical foundations, practical skills, and interdisciplinary knowledge; to foster innovation, research, and entrepreneurship in emerging areas of computer science while promoting sustainability, inclusivity, and universal values; to prepare graduates for lifelong learning and impactful careers; to build a culture of collaboration through industry–academia partnerships; and to serve society through technology solutions that enhance human well-being.
+
+---
+
+## 1. Course description 🟢
+
+This course introduces students to the full lifecycle of big data analytics, from data ingestion and storage to processing, modelling, visualisation, and interpretation. Students learn to work with large-scale datasets using modern tools and platforms, focus on practical analytics workflows, and develop skills needed for data-driven decision-making in intelligent systems and industry applications.
+
+---
+
+## 2. Course content (units & weightage) 🟢
+
+| Unit | Syllabus | Weightage |
+| --- | --- | --- |
+| 1 | Big Data ecosystem and data platforms — characteristics of big data, volume, velocity, variety, veracity; Hadoop ecosystem overview; distributed storage; data lakes; basic cloud-based storage concepts. | 25 Marks |
+| 2 | Data processing and analytics frameworks — batch and stream processing; MapReduce-style thinking; Spark fundamentals; transformations and actions; SQL-on-big-data concepts. | 25 Marks |
+| 3 | Data modelling, warehousing and analytics pipelines — data warehouses, schema design, ETL/ELT, data quality, partitioning, indexing, performance tuning. | 25 Marks |
+| 4 | Visualization, interpretation and governance — dashboards, visual storytelling, anomaly detection, privacy, security, ethical use of analytics, and reporting for decision support. | 25 Marks |
+
+---
+
+## 3. 🔵 Dual-level scope of each unit (KEYSTONE)
+
+| Unit | Awareness level — every student must reach (the floor) | Advanced level — required to exceed 8 CGPA (the ceiling) |
+| --- | --- | --- |
+| 1 | Explain the characteristics of big data and identify common storage architectures such as distributed file systems and data lakes; describe the role of the Hadoop ecosystem and basic cloud storage services. | Compare distributed storage designs for a novel dataset and justify the choice of storage and processing approach for scale, latency, and cost. |
+| 2 | Apply a basic batch or stream processing workflow to a provided dataset; perform transformations, aggregations, and simple analytics using a big-data framework. | Design an optimized processing pipeline for a real-world problem, including partitioning, caching, incremental computation, and performance trade-offs. |
+| 3 | Build a simple analytics pipeline, explain schema choices, and perform data quality checks and basic performance tuning. | Design a scalable warehouse or lakehouse-style solution, justify modelling choices, and evaluate quality, lineage, and reliability concerns for larger workloads. |
+| 4 | Create a basic dashboard or analytical report and explain key insights from data. | Produce an end-to-end analytics story with visualisation design, anomaly interpretation, governance controls, and ethical considerations for decision making. |
+
+**Bloom anchor:**
+
+| Level | Bloom verbs | Typical question stem |
+| --- | --- | --- |
+| Awareness (floor) | Remember, Understand, Apply | “Define…”, “Explain…”, “Apply X to this standard case…”, “Compute the result for…” |
+| Advanced (ceiling) | Analyse, Evaluate, Create | “Compare and justify…”, “Design a solution for…”, “Evaluate the trade-off between…”, “Propose and defend…” |
+
+---
+
+## 4. Course objectives 🟢
+
+- Understand the core concepts of big data, distributed storage, and analytics platforms.
+- Apply big-data processing techniques to transform and analyse large datasets.
+- Develop practical skills in building analytics pipelines and generating actionable insights.
+- Design and evaluate scalable, reliable, and ethical analytics solutions.
+- Communicate results using dashboards, reports, and data-driven narratives.
+
+---
+
+## 5. Course outcomes (COs) and PO/PSO mapping 🟢
+
+| CO# | Course outcome | Level (Remember / Understand / Apply / Analyse / Evaluate / Create) 🔵 | POs | PSOs |
+| --- | --- | --- | --- | --- |
+| CO1 | Explain the characteristics of big data and the role of distributed storage and processing platforms. | Understand | PO1(3), PO2(2), PO5(2) | PSO1(3) |
+| CO2 | Apply basic batch or stream processing methods to analyse large datasets. | Apply | PO1(3), PO2(3), PO3(2), PO5(2) | PSO1(3), PSO2(2) |
+| CO3 | Build and evaluate analytics pipelines with quality checks and simple performance tuning. | Analyse / Evaluate | PO1(3), PO2(3), PO3(3), PO4(2) | PSO1(3), PSO2(3) |
+| CO4 | Create dashboards and reports that communicate data-driven insights clearly. | Create | PO1(2), PO3(2), PO5(3), PO10(2) | PSO1(2), PSO2(2) |
+| CO5 | Design scalable and ethical big-data solutions for real-world decision support. | Evaluate / Create | PO1(3), PO2(3), PO3(3), PO7(2), PO8(2) | PSO1(3), PSO3(2) |
+| CO6 | Reflect on analytics workflow trade-offs and improve the solution for reliability, privacy, and maintainability. | Evaluate | PO2(2), PO4(2), PO7(3), PO8(3), PO10(2) | PSO1(2), PSO3(3) |
+
+---
+
+## 6. Pedagogy 🟢
+
+- Direct instruction for conceptual foundations of big data systems.
+- Demonstration-based learning using Spark, SQL, and dashboard tools.
+- Problem-based learning with industry-like datasets and analytics challenges.
+- Activity-based tutorials and guided lab practices.
+- Mini-project work to connect analytics techniques to real decision contexts.
+
+---
+
+## 7. Textbooks, references, e-resources 🟢
+
+**Textbook(s):**
+1. Tom White, Hadoop: The Definitive Guide, O’Reilly.
+2. Holden Karau et al., Learning Spark, O’Reilly.
+
+**References:**
+1. Bill Franks, Taming the Big Data Tidal Wave, Wiley.
+2. Viktor Mayer-Schönberger and Kenneth Cukier, Big Data, Houghton Mifflin.
+3. Raj, Pethuru, and Preeth, Big Data Analytics, CRC Press.
+
+**Web / e-books / NPTEL:**
+1. NPTEL course on Big Data Computing.
+2. Apache Spark documentation and getting-started guides.
+3. Databricks and Cloudera beginner tutorials.
+
+---
+
+## 8. 🔵 Differentiated instruction (mapped to the two levels)
+
+**Reaching the floor (awareness level) — for students at risk of not clearing it:**
+- Remedial support classes after the first analytics exercise for students below the expected floor.
+- Curated worked examples and scaffolded lab sheets for data loading, transformation, and reporting.
+- Peer mentoring for basic Spark/SQL tasks and dashboard creation.
+- Guided step-by-step templates for simple pipelines and charts.
+
+**Reaching the ceiling (advanced level) — for students aiming above 8 CGPA:**
+- Advanced case studies involving optimisation, scaling, and performance trade-offs.
+- Optional stretch tasks such as incremental processing, partitioning strategy, and anomaly detection.
+- Mini-project extension requiring a stronger design justification and governance plan.
+- Paper or report review on modern big-data systems and analytics practice.
+
+---
+
+## 9. Assignments 🟢
+
+| Assignment | Units covered | Marks | Window | Level (Awareness / Advanced) |
+| --- | --- | --- | --- | --- |
+| Assignment 1 | Unit 1 & 2 | 5 | Before IA-2 | Awareness |
+| Assignment 2 | Unit 3 & 4 | 5 | Before SEE | Advanced |
+
+---
+
+## 10. Prerequisites / pre-reading 🟢
+
+**Prerequisite course(s):** Database Management Systems, Python for Data Science, and basic statistics.
+
+> 🔵 Note: prerequisite performance will be used as an academic-mentoring signal for the AI/ML and Data Engineering pathway.
+
+---
+
+## 11. Lesson plan — tentative transaction dates + session implementation 🟢🔵
+
+| S.No | Planned date | Exec. date | Unit / topic | Merrill phase 🔵 | Activity (what the faculty runs) 🔵 | % compl. | Level (A/Adv) 🔵 | CO 🔵 | Remarks |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 01 | Week 1 | | Unit 1 — Big data characteristics and ecosystem | Problem-centred + Activation | Present a real-world analytics problem from e-commerce or healthcare; introduce big data properties and storage concepts. | 10% | A | CO1 | Anchor the course with a motivating problem |
+| 02 | Week 1 | | Unit 1 — Distributed storage and data lakes | Demonstration | Demonstrate storage choices and data lake concepts on a sample dataset. | 20% | A | CO1 | Live walkthrough |
+| 03 | Week 2 | | Unit 2 — Batch processing fundamentals | Application | Guided lab: transform a large sample dataset and compute summary metrics. | 30% | A | CO2 | Awareness lab |
+| 04 | Week 2 | | Unit 2 — Stream and incremental processing | Application + Integration | Students extend the workflow for streaming-style updates and discuss scaling trade-offs. | 40% | Adv | CO2 | Ceiling task |
+| 05 | Week 3 | | Unit 3 — Data modelling and schema design | Activation | Explain warehouse and lakehouse design using a case study. | 50% | A | CO3 | Use a case example |
+| 06 | Week 4 | | Unit 3 — Data quality and performance tuning | Demonstration | Demonstrate quality checks, partitioning, and tuning strategies. | 60% | A | CO3 | Practical demo |
+| 07 | Week 5 | | Unit 3 — Pipeline design challenge | Integration | Teams design and justify a pipeline for a given problem context. | 70% | Adv | CO3, CO5 | Advanced design activity |
+| 08 | Week 6 | | Unit 4 — Visualisation basics | Application | Students create charts and dashboards from the processed data. | 80% | A | CO4 | Visual communication |
+| 09 | Week 7 | | Unit 4 — Storytelling and anomaly detection | Application + Integration | Students interpret dashboard results, identify anomalies, and explain decisions. | 85% | Adv | CO4, CO6 | Advanced interpretation |
+| 10 | Week 8 | | Capstone — End-to-end analytics solution | Integration | Teams present a mini-project combining ingestion, processing, modelling, and reporting. | 100% | Adv | CO5, CO6 | Final showcase |
+
+> 🔵 The Level column makes it explicit where advanced-level learning is taught. Advanced work is embedded in the later sessions so the ceiling is visible in the calendar and not only in assessment.
+
+---
+
+## 12. ICT & digital support 🟢
+
+- Apache Spark / PySpark for distributed processing
+- Hadoop ecosystem overview and HDFS concepts
+- SQL and notebook-based analytics tools
+- Power BI / Tableau / Excel for dashboards
+- Cloud storage demonstrations using public cloud basics
+- LMS, discussion forums, and recorded walkthrough videos
+
+---
+
+## 13. Academic integrity policy 🟢
+
+Plagiarism, copying of code or reports, or uncredited reuse of analytics solutions is prohibited and will lead to zero marks for that component. Students must acknowledge the use of external code, templates, or help received.
+
+---
+
+## 14. 🔵 Evaluation scheme — dual-level (CORE OF THE TEMPLATE)
+
+### 14.1 Assessment overview
+
+| Component | Type | Marks | Awareness marks (floor) | Advanced marks (ceiling) | COs |
+| --- | --- | ---: | ---: | ---: | --- |
+| Quiz / short test | CIE | 10 | 7 | 3 | CO1, CO2 |
+| Lab exercise 1 | CIE | 10 | 7 | 3 | CO1, CO2 |
+| Lab exercise 2 | CIE | 10 | 7 | 3 | CO2, CO3 |
+| Mini-project demo | CIE | 10 | 6 | 4 | CO3, CO5 |
+| Assignment / report | CIE | 10 | 6 | 4 | CO4, CO6 |
+| Viva / oral review | CIE | 10 | 5 | 5 | CO1–CO6 |
+| **CIE Total** |  | **50** | **38** | **22** |  |
+| **SEE** | Written + practical-based evaluation | **50** | **35** | **15** | CO1–CO6 |
+| **Grand Total** |  | **100** | **73** | **37** |  |
+
+### 14.2 Detailed assessment plan
+
+| Instrument | What is assessed | Marks | Awareness expectation | Advanced expectation |
+| --- | --- | ---: | --- | --- |
+| Quiz / short test | Core concepts of big data, storage, processing, and analytics vocabulary | 10 | Define and explain the basics of big data platforms and workflows | Compare approaches and justify when one framework is better than another |
+| Lab exercise 1 | Data loading, transformation, and basic summarisation on a sample dataset | 10 | Perform a given workflow correctly and report results | Optimise the workflow for scale, clarity, or performance |
+| Lab exercise 2 | Batch/stream processing, data quality checks, and simple analytics | 10 | Apply the required processing steps and interpret outputs | Propose improvements, handling of edge cases, and trade-off analysis |
+| Mini-project demo | End-to-end analytics solution on a small real-world problem | 10 | Produce a working analytics output with basic explanation | Design a stronger solution with better modelling, scaling, or governance |
+| Assignment / report | Written interpretation of analytics problem and design choices | 10 | Explain the solution and present basic findings | Critically evaluate choices and recommend improvements |
+| Viva / oral review | Conceptual understanding and reasoning about the workflow | 10 | Explain the steps taken and answer standard questions | Defend design choices and discuss alternatives with evidence |
+| SEE | Comprehensive understanding of the course | 50 | Answer standard-case questions and demonstrate core competency | Solve advanced design, evaluation, and decision-making questions |
+
+### 14.3 Question-paper blueprint 🔵
+
+| Instrument | Awareness questions (Bloom: R/U/Ap) | Advanced questions (Bloom: An/E/C) |
+| --- | --- | --- |
+| CIE Quiz / Viva | Define a distributed storage model, explain Hadoop/Spark concepts, apply a simple transformation | Compare two processing strategies, justify a design choice, critique a pipeline |
+| CIE Lab / Mini-project | Implement a specified analytics workflow and report results | Optimise the workflow, handle missing/large data, justify architecture choices |
+| SEE | Standard-case analytics problems across all units | At least one advanced design or evaluation problem from each major unit |
+
+### 14.4 🔵 The calibration that enforces the CGPA rule
+
+| Check | Entry |
+| --- | --- |
+| Marks-to-CGPA conversion used | REVA 10-point scale with 8 CGPA requiring strong advanced performance |
+| Max % achievable from awareness marks alone | 73% |
+| Grade band that % falls into | Below the 8 CGPA band |
+| Advanced marks needed to cross 8 CGPA | Approximately 10–12 marks from the advanced pool |
+| ✅ Calibration confirmed (awareness-only < 8 CGPA) | Yes |
+
+### 14.5 Assessment rubric guidance
+
+- Awareness level: correctness, completeness, and application of standard procedures.
+- Advanced level: design justification, comparative analysis, optimisation, and ethical decision-making.
+- A student who performs only at the awareness level can clear the course but will not reach the upper CGPA band without advanced-level evidence.
+
+---
+
+## 15. 🔵 Result analysis — banded to detect the two levels
+
+| Exam | < 40% (below floor — remediate) | 40–75% (floor cleared, awareness-solid) | > 75% (advanced attained) |
+| --- | --- | --- | --- |
+| IA-1 | | | |
+| IA-2 | | | |
+| Assignment 1 | | | |
+| Assignment 2 | | | |
+| SEE | | | |
+
+---
+
+## 16. Learner support tracking 🟢🔵
+
+### 16.1 Students below the floor (per IA) — remediation
+
+| Sl | SRN | Name | IA | Gap identified | Remedial class dates | Re-assessment result |
+| --- | --- | --- | --- | --- | --- | --- |
+
+### 16.2 Students reaching for the ceiling — enrichment
+
+| Sl | SRN | Name | Advanced task assigned | Outcome |
+| --- | --- | --- | --- | --- |
+
+| | No. of students | Action taken |
+| --- | --- | --- |
+| Below floor (slow learners) | | |
+| At ceiling (fast learners) | | |
+
+---
+
+## 17. 🔵 Track-advice signal (links course → SIG track choice)
+
+| Field | Entry |
+| --- | --- |
+| Is this a prerequisite for a SIG track? | Yes — AI/ML and Data Engineering pathway |
+| % of students at advanced level (> 75% / 8+ CGPA) | ‹…› |
+| Domains where advanced performance clustered | Data engineering, analytics engineering, decision support |
+| Recommended note to academic mentors | Students who perform strongly in Units 3–4 are good candidates for data engineering and analytics-focused SIG work. |
+
+---
+
+## 18. CO attainment 🟢
+
+**Set target:** 60
+
+| CO | IA1 | IA2 | A1 | A2 | SEE | Direct attainment | Level (A/Adv) 🔵 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| CO1 | | | | | | | A |
+| CO2 | | | | | | | A |
+| CO3 | | | | | | | Both |
+| CO4 | | | | | | | Adv |
+| CO5 | | | | | | | Adv |
+| CO6 | | | | | | | Adv |
+
+---
+
+## 19. CO–PO/PSO mapping & overall attainment 🟢
+
+**Strength: 1 = Low, 2 = Medium, 3 = High.**
+
+| CO | PO1 | PO2 | PO3 | PO4 | PO5 | PO6 | PO7 | PO8 | PO9 | PO10 | PSO1 | PSO2 | PSO3 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| CO1 | 3 | 2 | | | 2 | | | | | | 3 | | |
+| CO2 | 3 | 3 | 2 | | 2 | | | | | | 3 | 2 | |
+| CO3 | 3 | 3 | 3 | 2 | | | | | | | 3 | 3 | |
+| CO4 | 2 | | 2 | | 3 | | | | | 2 | 2 | 2 | |
+| CO5 | 3 | 3 | 3 | | | | 2 | 2 | | | 3 | | 2 |
+| CO6 | | 2 | | 2 | | | 3 | 3 | | 2 | 2 | | 3 |
+
+**Overall attainment** (Direct 80% + Indirect/Feedback 20%):
+
+| | Internal | External | Grand total (80%+20%) |
+| --- | --- | --- | --- |
+| CO attainment | | | |
+| PO attainment | | | |
+| PSO attainment | | | |
+
+**Minimum level for PO attainment:** 50%–60%
+
+---
+
+## 20. Course completion summary 🟢
+
+| Unit | Planned date | Completion date | Remarks |
+| --- | --- | --- | --- |
+| 1 | | | |
+| 2 | | | |
+| 3 | | | |
+| 4 | | | |
+
+---
+
+## 21. 🔵 Faculty reflection — dual-level health check
+
+- Did the awareness floor genuinely protect placement-readiness for the weakest students? ‹…›
+- Was the advanced ceiling reached by roughly the expected share, or did it collapse / go unassessed? ‹…›
+- One change to the awareness/advanced split for next offering: ‹…›
+
+---
+
+**Signatures**
+
+Course Faculty (digital signature) — ‹…›   HoD / Director (digital signature) — ‹…›
+
+---
+
+## 22. 🔵 Implementation strategy — Merrill's First Principles
+
+This course is implemented through a problem-centred workflow that moves from activation to demonstration, application, and integration. Every unit uses at least one activity that anchors learning in a realistic problem, one that demonstrates the method, one that allows guided practice, and one that asks students to transfer the skill to a new context.
+
+### 22.1 Phase-coverage check 🔵
+
+| Check | Entry |
+| --- | --- |
+| All five Merrill phases used at least once per unit | Yes |
+| §11 sessions using Activation = lecture + demonstration | Sessions 01, 05 |
+| §11 sessions delivering Advanced-level activities | Sessions 04, 07, 09, 10 |
+| ✅ Ceiling taught (≥1 Adv activity per unit, not only assessed) | Yes |
